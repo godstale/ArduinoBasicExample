@@ -1,6 +1,5 @@
 void setup() {
   Serial.begin(9600);
-  delay(3000);
   
   int sum;
   sum = add(1, 2);

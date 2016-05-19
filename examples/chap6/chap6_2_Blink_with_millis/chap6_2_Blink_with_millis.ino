@@ -11,7 +11,7 @@ void loop() {
   unsigned long currentTime = millis();
 
   // 현재 시간이 지난 번 변경 시간 + 1초 보다 클 때
-if( currentTime > previousTime + 1000 ) {
+  if( currentTime > previousTime + 1000 ) {
   // LED 제어
     if(isOn) {
       digitalWrite(13, HIGH);

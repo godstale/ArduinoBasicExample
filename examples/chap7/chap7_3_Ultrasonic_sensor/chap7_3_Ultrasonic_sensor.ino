@@ -1,12 +1,10 @@
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
   pinMode(2,OUTPUT);  // 센서 Trig 핀
   pinMode(3,INPUT);   // 센서 Echo 핀
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   int duration, cm;
 
   digitalWrite(2,HIGH);   // 센서에 Trig 신호 입력

@@ -4,7 +4,6 @@ Servo servo;
 int servoPin = 9;
 
 void setup() {
-  // put your setup code here, to run once:
   servo.attach(servoPin);
 }
 

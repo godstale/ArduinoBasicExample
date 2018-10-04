@@ -1,5 +1,5 @@
-int ledPin = 13;     // LED 핀
-int inputPin = 2;    // PIR sensor 핀
+#define ledPin 13     // LED 핀
+#define inputPin 2    // PIR sensor 핀
 
 void setup() {
   pinMode(ledPin, OUTPUT);
